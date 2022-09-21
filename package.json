@@ -1,0 +1,21 @@
+{
+  "name": "eslint_node_starter",
+  "version": "1.0.0",
+  "description": "ES Lint node JS projeect starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ./**/*.js",
+    "lint-fix": "eslint ./**/*.js --fix"
+  },
+  "keywords": [],
+  "author": "Nikhil Kadyan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1"
+  }
+}
