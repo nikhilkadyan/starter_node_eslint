@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ES Lint node JS project starter",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "lint": "eslint ./**/*.js",
